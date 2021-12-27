@@ -22,3 +22,11 @@ ref1: [Safer Classification by Synthesis](https://arxiv.org/abs/1711.08534)
 - Is the additional complexity warranted ? Can we use simpler approaches ?
 - Generating images/samples is not needed for the task at hand. We can fit the generative model on a lower dimensional projection vectors.
 - Decoupling of objectives is typically a bad idea in deep learning. Can we frame a sigle network/objective to perform both novelty detection and classification ? Note that the paper is quite old.
+- Find some real-world data with `data-shift`,to ultimately bench mark your approach. Also think/quantify exactly what do you mean by `out-of-distribution` and `uncertainity`(epistemic vs aleatory uncertainty). Bayesian NN's seem to be a direct candidate here.
+
+**NOTES**
+
+`On Simpler Approaches`
+- Train an ensemble of models(can be done within a single model with multiple heads) and use the `std` as a threshold to decide for `novelty` and the `avg` as the class label.
+- 
+
