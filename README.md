@@ -4,8 +4,6 @@ A project to find out a viable approach for quantifying the uncertainty of the m
 ## Step-1: Literature Survey
 ref1: [Safer Classification by Synthesis](https://arxiv.org/abs/1711.08534)
 
-**Comments:**
-
 `Synthesis`
 
 - The `probability values` of Discriminative classifiers can be high even when the input is coming from out-of-sample distribution. This can be quantified by plotting `coverage` vs `risk` (by varying the classification threshold). Ideally when sufficiently large threshold is chosen, misclassification-rate should be zero.
