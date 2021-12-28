@@ -39,3 +39,5 @@ We will be using the following tools for implementation.
 [Weights-Biases](https://wandb.ai/site)
 
 [Streamlit](https://streamlit.io/)
+
+For a good tutorial on deep learning and pytorch refer [Alex samola's book](https://d2l.ai/)
