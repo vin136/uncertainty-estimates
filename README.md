@@ -30,3 +30,12 @@ ref1: [Safer Classification by Synthesis](https://arxiv.org/abs/1711.08534)
 - Train an ensemble of models(can be done within a single model with multiple heads) and use the `std` as a threshold to decide for `novelty` and the `avg` as the class label.
 
 
+
+# Tools
+We will be using the following tools for implementation.
+
+[Pytorch-lightning](https://devblog.pytorchlightning.ai/lightning-tutorials-in-collaboration-with-the-university-of-amsterdam-uva-2499eaa0caad)
+
+[Weights-Biases](https://wandb.ai/site)
+
+[Streamlit](https://streamlit.io/)
