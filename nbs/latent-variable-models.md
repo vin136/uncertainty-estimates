@@ -9,4 +9,9 @@ Autoregressive models are slow to sample as we assume all the variables dependen
 
 ![vae-3](https://user-images.githubusercontent.com/21222766/147594980-827caf98-f570-4cdc-b333-76939c96ad3e.jpeg)
 
-Now, We understand all the key mathematical ideas behind VAE's. Below are the last few tricks we need to train these.
+Now, We understand all the key mathematical ideas behind VAE's. Below I share two different derivations for `VLB`. These add further insights into the model.
+
+![vae-4](https://user-images.githubusercontent.com/21222766/147699075-b532cdbe-0ea6-4578-a671-d99a91a52b90.jpeg)
+
+![vae-5](https://user-images.githubusercontent.com/21222766/147699083-c96b3208-68f0-4748-8e98-ba467ecfb6ba.jpeg)
+
