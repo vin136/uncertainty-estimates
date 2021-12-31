@@ -38,6 +38,7 @@ Tabular data: [Paper](https://arxiv.org/abs/2112.03566) and [Code](https://githu
 Image data :[Paper](https://arxiv.org/abs/2112.04350)
 Guidelines to tackle [realworld shifts](https://vectorinstitute.ai/wp-content/uploads/2021/08/ds_project_report_final_august9.pdf)
 
+ref 3: [Collection of real-world datasets with distribution shift](http://ai.stanford.edu/blog/wilds/)
 # Tools
 We will be using the following tools for implementation.
 
