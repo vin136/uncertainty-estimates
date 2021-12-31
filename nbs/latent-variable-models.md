@@ -15,4 +15,4 @@ Now, We understand all the key mathematical ideas behind VAE's. Below I share tw
 
 ![vae-5](https://user-images.githubusercontent.com/21222766/147699083-c96b3208-68f0-4748-8e98-ba467ecfb6ba.jpeg)
 
-![vae-6](https://user-images.githubusercontent.com/21222766/147700567-32f07971-9064-46b1-8c30-db3829bcef1c.jpeg)
+![vae-7](https://user-images.githubusercontent.com/21222766/147835220-b47315d0-1b45-4072-a381-576894637169.jpg)
