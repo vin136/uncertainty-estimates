@@ -27,6 +27,8 @@ ref1: [Safer Classification by Synthesis](https://arxiv.org/abs/1711.08534)
 Since descriminative classification doesn't explictly have a distance metric, we can train networks with explicit [distance metric for classification](https://arxiv.org/abs/1703.05175) and use thresholding to detect out-of-sample distributions. Here's another [paper](https://arxiv.org/abs/2003.02037),[Deterministic Neural Networks with Inductive Biases Capture Epistemic and
 Aleatoric Uncertainty](http://www.gatsby.ucl.ac.uk/~balaji/udl2021/accepted-papers/UDL2021-paper-022.pdf),[Pitfalls of OOD detection](http://www.gatsby.ucl.ac.uk/~balaji/udl2021/accepted-papers/UDL2021-paper-092.pdf) that does exactly this.
 
+Ideally we would want to classify samples into a. Unseen out-of-sample(alaetoric) b. Too hard to detect into a class(epistemic uncertianty). This would play a big role in debugging and improving the models.
+
 **NOTES**
 
 `On Simpler Approaches`
