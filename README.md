@@ -33,7 +33,10 @@ ref 2: [A survey on uncertainty estimation](https://arxiv.org/abs/2107.03342)
 
 ref 3: [NeurIps Shifts Challenge](https://research.yandex.com/shifts/)
 
-
+Here are some cool empirical studies:
+Tabular data: [Paper](https://arxiv.org/abs/2112.03566) and [Code](https://github.com/bond005/yandex-shifts-weather)
+Image data :[Paper](https://arxiv.org/abs/2112.04350)
+Guidelines to tackle [realworld shifts](https://vectorinstitute.ai/wp-content/uploads/2021/08/ds_project_report_final_august9.pdf)
 
 # Tools
 We will be using the following tools for implementation.
