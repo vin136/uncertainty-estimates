@@ -24,7 +24,7 @@ ref1: [Safer Classification by Synthesis](https://arxiv.org/abs/1711.08534)
 - Decoupling of objectives is typically a bad idea in deep learning. Can we frame a sigle network/objective to perform both novelty detection and classification ? Note that the paper is quite old.
 - Find some real-world data with `data-shift`,to ultimately bench mark your approach. Also think/quantify exactly what do you mean by `out-of-distribution` and `uncertainity`(epistemic vs aleatory uncertainty). Bayesian NN's seem to be a direct candidate here.
 `Ideas`:
-Since descriminative classification doesn't explictly have a distance metric, we can train networks with explicit [distance metric for classification](https://arxiv.org/abs/1703.05175) and use thresholding to detect out-of-sample distributions.
+Since descriminative classification doesn't explictly have a distance metric, we can train networks with explicit [distance metric for classification](https://arxiv.org/abs/1703.05175) and use thresholding to detect out-of-sample distributions. Here's another [paper](https://arxiv.org/abs/2003.02037) that does exactly this.
 
 **NOTES**
 
