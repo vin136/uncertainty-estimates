@@ -56,7 +56,7 @@ Above is SOTA interms of uncertainty quantification. But only bottleneck being
 
 Can we have a simpler single model ?
 
-Naively trained discriminative classifiers cannot do both classification and out-of-sample detection both efficiently. Reasons and a good first approach is given here:[Deterministic Deep Learning via Distance Awareness](https://arxiv.org/abs/2006.10108). It's single forward pass but a considerable departure from typical training. Here's a far simple approach - [code]:(https://github.com/omegafragger/DDU),[paper](https://arxiv.org/abs/2102.11582). Implement and compare with this model.
+Naively trained discriminative classifiers cannot do both classification and out-of-sample detection both efficiently. Reasons and a good first approach is given here:[Deterministic Deep Learning via Distance Awareness](https://arxiv.org/abs/2006.10108). It's single forward pass but a considerable departure from typical training. Here's a far simple approach - [code](https://github.com/omegafragger/DDU),[paper](https://arxiv.org/abs/2102.11582). Implement and compare with this model.
 
 
 
