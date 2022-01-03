@@ -44,6 +44,24 @@ Image data :[Paper](https://arxiv.org/abs/2112.04350)
 Guidelines to tackle [realworld shifts](https://vectorinstitute.ai/wp-content/uploads/2021/08/ds_project_report_final_august9.pdf)
 
 ref 3: [Collection of real-world datasets with distribution shift](http://ai.stanford.edu/blog/wilds/)
+
+## Final Experimental Setup
+DataSets: MNIST(training data),DIRTYMNIST(in-d but uncertain samples),FASHIONMNIST(to get ood samples)
+Perform temperature scaling as done [here](https://openreview.net/pdf?id=BJxI5gHKDr) to compare the log-likelihood between the models.
+Baseline: 1. [DeepEnsembles](https://arxiv.org/abs/1612.01474).(multiple models+possibly trained with adverserial training)
+Above is SOTA interms of uncertainty quantification. But only bottleneck being 
+
+1.Doesn't really differentiate between ambiguous inputs(alaetoric) and Clear out of sample inputs.
+2. Training cost.
+
+Can we have a simpler single model ?
+
+Naively trained discriminative classifiers cannot do both classification and out-of-sample detection both efficiently. Reasons and a good first approach is given here:[Deterministic Deep Learning via Distance Awareness](https://arxiv.org/abs/2006.10108). It's single forward pass but a considerable departure from typical training. Here's a far simple approach - code:(https://github.com/omegafragger/DDU),[paper](https://arxiv.org/abs/2102.11582). Implement and compare with this model.
+
+
+
+
+
 # Tools
 We will be using the following tools for implementation.
 
